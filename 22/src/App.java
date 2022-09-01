@@ -11,7 +11,7 @@ public class App {
         Scanner leitorScanner = new Scanner(System.in);
         int i = 0;
 
-        for(; i < 40; i++) {
+        for(; i < 5; i++) {
             System.out.println("Digite o nome do produto");
             nomeProduto = leitorScanner.next();
             System.out.println("Digite o preço de custo do produto");
